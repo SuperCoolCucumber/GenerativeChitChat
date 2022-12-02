@@ -1,8 +1,8 @@
-torch==1.9.1
-scikit-learn==0.24.1
-matplotlib==3.3.4
-tqdm==4.59.0
+torch 
+scikit-learn
+matplotlib
+tqdm
 datasets>=1.12.1
-nltk==3.6.1
-seaborn==0.11.1
+nltk
+seaborn
 youtokentome
