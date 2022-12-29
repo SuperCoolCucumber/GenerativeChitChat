@@ -6,3 +6,6 @@ datasets>=1.12.1
 nltk
 seaborn
 youtokentome
+tokenizers
+loguru
+transformers
