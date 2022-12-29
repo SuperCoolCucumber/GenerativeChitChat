@@ -44,7 +44,9 @@ model = AutoregressiveWrapper(
 if __name__ == '__main__':
 
     model.load_state_dict(
-        torch.load('model_latest_v2.pth')).to(DEVICE)
+        torch.load('model_latest_v2.pth'))
+
+    model = model.to(DEVICE)
 
 
     num_epochs = 1000
